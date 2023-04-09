@@ -4,22 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            background-image: linear-gradient(to bottom, rgb(28, 28, 42), rgb(12, 24, 65));
-            background-repeat: no-repeat;
-            color: white;
-        }
-        body h1 {
-            font-size: 25px;
-        }
-    </style>
+    <title>DANCERS</title>
+    <link rel="stylesheet" href="DANCING.css">
+    <STYLE>
+        html { 
+    /* centered random background image from unsplash.it */
+    /* https://css-tricks.com/perfect-full-page-background-image */
+    /* https://unsplash.it */
+    background: url(images/poetry\ \(2\).jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+    
+body,main {
+    /*adjust layout/width*/
+    display:inline-block;
+    padding: 12px;
+    /*make text readable, hopefully*/
+    background-color: rgba(235, 245, 255, 0.55);
+    text-shadow: 0px 0px 32px rgba(255, 255, 255, 1);
+    
+}
+    </STYLE>
 </head>
 <body>
-    <div>
-        <h1>Poets</h1>
-        <p>gulshan biswas <br>Akash mishra<br>Aditi Ashish <br>Himanshu chandel <br>Himadri Chaudhary</p>
+    <header>
+		<h1>Welcome to संवाद</h1>
+		<h2>we provides you to choose your poet</h2>
+	</header>
+	
+	<main>
+		<h3>Here are the artists who will make you function memorable </h3>
+        <div><ul class="poets">
+            <li><a href="#">Poet</a>
+                <h2>OUR POETS</h2>
+                
+                <form action="/action_page.php">
+                  <label for="fname">Date:</label><br>
+                  <input type="text" id="fname" name="fname" placeholder="booking date"><br>
+                  <label for="lname">Time</label><br>
+                  <input type="text" id="lname" name="lname" placeholder="time slot"><br><br>
+                  <label for="DAN">POET:</label>
+                  <select id="SAYARI" name="ARTIST">
+                <option value="CHOOSE GROUPS">CHOOSE POETS</option>
+                <option value="ROCKY">RAKESH SAINI</option>
+                <option value="BAD BLUE BOYS">RAMESH PARIHAR</option>
+                <option value="Ameya. limitless ">LOKESH JOSHI</option>
+                <option value="Abhidi. radiant · ">AYUSH KUSHWAHA </option>
+                 <option value="ROCKING POP">ADITYA HAUSALA</option>
+                </select>
+                  <input type="submit" value="Submit">
+                </form> 
+            </li>
+          
+            
+        </ul>
     </div>
+	</main>
 </body>
 </html>
