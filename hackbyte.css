@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(0,0,14),rgb(50, 50, 11)) ;
+    background-repeat:no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 30px;
+}
+li {
+    list-style: none;
+    cursor: pointer;
+    list-style: none;
+}
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+.heap
+{
+    border-top-right-radius: 0%;
+    font-size: 15px;
+}
+.heap ul li{
+    color:aliceblue;
+    
+}
+.logo
+{
+ margin-left: 20px;
+}
+main {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+    
+}
+main div img{
+    width:45vw;
+    height:35vh;
+    margin:30px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+main div h2{
+    font-size: 30px;
+    color:red;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+main div h1{
+    font-size: 45px;
+    color:white;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+main div p{
+    font-size: 16px;
+    color:white;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+main div a{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 30px;
+    list-style: none;
+    text-decoration:none;
+}
+main div  h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight:700;
+    color:coral;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.items{
+    display:flex;
+    justify-content: space-evenly;
+}
+.items div{
+    height:200px;
+    width:200px;
+    
+}
+.items div img:hover{
+ width:205px;
+ height:205px;
+ transition-duration: 1s;
+}
+.items1
+{
+    background-image: url("mike.jpg");
+    color:rgb(168, 112, 44);
+    font-size: 45px;
+    text-decoration: underline;
+}
+.items2{
+    background-image: url("item2.jpeg");
+    color:rgb(168, 112, 44);
+    font-size: 45px;
+    text-decoration: underline;
+}
+.items3{
+    background-image: url("item3.jpeg");
+    color:rgb(168, 112, 44);
+    font-size: 45px;
+    text-decoration: underline;
+}
+.items4{
+    background-image: url("item4.jpeg");
+    color:rgb(168, 112, 44);
+    font-size: 45px;
+    text-decoration: underline;
+}
+.items5{
+    background-image: url("item5.jpeg");
+    color:rgb(168, 112, 44);
+    font-size: 45px;
+    text-decoration: underline;
+}
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+footer p {
+    font-weight: 600;
+    font-size:15px;
+    margin-top: 20px;
+}
+
